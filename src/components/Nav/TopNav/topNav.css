@@ -1,0 +1,58 @@
+.navbar-nav {
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 20px;
+
+}
+
+
+.sidenav__link-group {
+    justify-content: end;
+}
+
+
+.nav-link {
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+
+/* Come back to change the link hover into a var() */
+
+a.nav-link:hover {
+    color: orange !important;
+
+}
+
+button.navbar-toggler {
+    margin: 5px;
+}
+
+
+@media (min-width: 280px) {
+    .navbar-nav {
+        padding-right: 0;
+    }
+}
+
+
+@media (min-width: 300px) {
+    .top-navbar {
+        width: auto;
+
+    }
+
+    div.navbar-expand-lg.navbar-dark.bg-dark.sticky-top.top-navbar {
+        width: 100vw;
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .navbar-nav {
+        padding-right: 40px;
+    }
+}
